@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #3a1c54;
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+}
+main {
+  display: grid;
+  grid-template-areas:
+    "a a a b"
+    "a a a b"
+    "a a a b"
+    "c c d d"
+    "c c e e"
+    "c c e e";
+  margin: auto;
+  width: 50%;
+  gap: 10px;
+  min-height: 60vh;
+}
+.item-a {
+  background-color: #eb5020;
+  grid-area: a;
+}
+.item-b {
+  background-color: #ffa401;
+  grid-area: b;
+}
+.item-c {
+  background-color: #05aa42;
+  grid-area: c;
+}
+.item-d {
+  background-color: #01aefd;
+  grid-area: d;
+}
+.item-e {
+  background-color: #01aefd;
+  grid-area: e;
+}
