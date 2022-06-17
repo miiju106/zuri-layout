@@ -1,99 +1,105 @@
-@import url('https://fonts.googleapis.com/css?family=Lexend+Deca');
-@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display');
+@import url("https://fonts.googleapis.com/css?family=Lexend+Deca");
+@import url("https://fonts.googleapis.com/css?family=Big+Shoulders+Display");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: hsl(0, 0%, 95%);
+body {
+  background-color: hsl(0, 0%, 95%);
 }
 main {
-display: flex;
-margin: auto;
-/* justify-content: center; */
-align-items: center;
-width: 50%;
-height: 100vh;
-
+  display: flex;
+  margin: auto;
+  /* justify-content: center; */
+  align-items: center;
+  width: 50%;
+  height: 70vh;
 }
 .sedans-box {
-    padding: 2em;
-    background-color: hsl(31, 77%, 52%);
-    border-radius: 5px 0 0 5px;
-
+  padding: 2em;
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 5px 0 0 5px;
 }
-.suv-box{
-    padding: 2em;
-    background-color: hsl(184, 100%, 22%);
+.suv-box {
+  padding: 2em;
+  background-color: hsl(184, 100%, 22%);
 }
 .luxury-box {
-    padding: 2em;
-    background-color: hsl(179, 100%, 13%);
-    border-radius: 0 5px 5px 0;
+  padding: 2em;
+  padding-top: 2em;
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 5px 5px 0;
 }
 .sedans-box > h3 {
-    font-family: Big Shoulders Display;
-    font-size: 30px;
-    color: hsl(0, 0%, 95%) ;
-    font-weight: regular;
-    letter-spacing: 2px;
-    padding-bottom: .8em;
+  font-family: Big Shoulders Display;
+  font-size: 30px;
+  color: hsl(0, 0%, 95%);
+  font-weight: regular;
+  letter-spacing: 2px;
+  padding-bottom: 0.8em;
 }
-.sedans-box > p{
-    font-family:Lexend Deca;
-    font-size: 10px;
-    color:hsla(0, 0%, 100%, 0.75) ;
-    font-weight: extralight;
-    padding-bottom: 4em;
-    line-height: 15px;
+.sedans-box > p {
+  font-family: Lexend Deca;
+  font-size: 10px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: extralight;
+  padding-bottom: 4em;
+  line-height: 15px;
 }
 .button {
-    padding: 6px 12px;
-    border: 1px solid white;
-    border-radius: 15px;
-    font-family:Lexend Deca;
-    font-size: 10px;
+  padding: 6px 12px;
+  border: 1px solid white;
+  border-radius: 15px;
+  font-family: Lexend Deca;
+  font-size: 10px;
 }
-.sedans-box >img {
-    padding-bottom: .5em;
+.sedans-box > img {
+  padding-bottom: 0.5em;
 }
-.suv-box > h3{
-    font-family: Big Shoulders Display;
-    font-size: 30px;
-    color: hsl(0, 0%, 95%) ;
-    font-weight: regular;
-    letter-spacing: 2px;
-    padding-bottom: .8em;
+.suv-box > h3 {
+  font-family: Big Shoulders Display;
+  font-size: 30px;
+  color: hsl(0, 0%, 95%);
+  font-weight: regular;
+  letter-spacing: 2px;
+  padding-bottom: 0.8em;
 }
-.suv-box > p{
-    font-family:Lexend Deca;
-    font-size: 10px;
-    color:hsla(0, 0%, 100%, 0.75) ;
-    font-weight: extralight;
-    padding-bottom: 4em;
-    line-height: 15px;
+.suv-box > p {
+  font-family: Lexend Deca;
+  font-size: 10px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: extralight;
+  padding-bottom: 4em;
+  line-height: 15px;
 }
-.suv-box >img {
-    padding-bottom: .5em;
+.suv-box > img {
+  padding-bottom: 0.5em;
 }
-.luxury-box > h3{
-    font-family: Big Shoulders Display;
-    font-size: 30px;
-    color: hsl(0, 0%, 95%) ;
-    font-weight: regular;
-    letter-spacing: 2px;
-    padding-bottom: .8em;
+.luxury-box > h3 {
+  font-family: Big Shoulders Display;
+  font-size: 30px;
+  color: hsl(0, 0%, 95%);
+  font-weight: regular;
+  letter-spacing: 2px;
+  padding-bottom: 0.8em;
 }
-.luxury-box > p{
-    font-family:Lexend Deca;
-    font-size: 10px;
-    color:hsla(0, 0%, 100%, 0.75) ;
-    font-weight: extralight;
-    padding-bottom: 4em;
-    line-height: 15px;
+.luxury-box > p {
+  font-family: Lexend Deca;
+  font-size: 10px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: extralight;
+  padding-bottom: 4em;
+  line-height: 15px;
 }
-.luxury-box >img {
-    padding-bottom: .5em;
+.luxury-box > img {
+  padding-bottom: 0.5em;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
